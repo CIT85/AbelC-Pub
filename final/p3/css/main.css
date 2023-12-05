@@ -214,14 +214,12 @@ img {
     }
     
     .page2  footer {
-      background-color: #333333;
+      background-color:#333 ;
       color:red
-      text-align: center;
-      padding: 10px 0;
     }
     
     .page2 footer a {
-      color:#333;
+      color:#fff;
     }
     
     .page2 footer a:hover {
@@ -646,3 +644,86 @@ background-color: #666;
   background-color: #333;
   color: #457845;
 }
+
+/* Contact Us Page */
+.page6  body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:   red;
+  color: red;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.page6 footer {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
